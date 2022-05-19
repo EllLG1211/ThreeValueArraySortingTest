@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
 namespace ThreeValueArraySortingTest
 {
@@ -15,7 +10,6 @@ namespace ThreeValueArraySortingTest
             var stopwatch = Stopwatch.StartNew();
             SortingAlgorithm(array);
             stopwatch.Stop();
-            //PrintArray(array);
             Console.WriteLine(GetType().Name + " completed in " + stopwatch.Elapsed.TotalSeconds);
         }
 
